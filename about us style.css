@@ -1,0 +1,48 @@
+body{
+   background-color: black; 
+}
+.main{
+  background-color: white;  
+  width: auto;
+  height: auto;
+  margin: 100px;
+  display: flex;
+}
+.right{
+    float: right;
+}
+.left{
+    width: 50%;
+    margin: 50px;
+}
+.img{
+    height: 450px;
+}
+span{
+    margin: 10px 10px 20px 50px;
+    font-weight: bolder;
+    font-size: 50px;
+    font-style: italic;
+    color: red;
+    text-align: center;
+    /*#FF7878*/
+}
+p{
+    font-size: 18px;
+}
+button{
+    width: 150px;
+    height: 40px;
+    margin-left:50px;
+    margin-top: 5px;
+    background-color: red; 
+    color: white;
+    border-radius:15px;
+/*    border:1px solid red;*/
+border: none;
+    outline: none;
+}
+button:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
